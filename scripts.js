@@ -9,3 +9,16 @@ estherGreeter.sayHello = function () {
 window.estherGreeter = estherGreeter;
 
 }) (window);
+
+
+(function () {
+var oyinGreeter = {};
+oyinGreeter.name = " oyin";
+var greeting = "Hello";
+oyinGreeter.sayHello = function () {
+  console.log(greeting + oyinGreeter.name);
+}
+
+window.oyinGreeter = oyinGreeter;
+
+}) (window);
